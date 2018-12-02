@@ -4,7 +4,6 @@ import util.Util
 
 fun main() {
     val input = Util.getResourceLines("day2/puzzle1/input")
-    input.map { it }
     val twoLettersCount = countLetters(input, 2)
     val threeLettersCount = countLetters(input, 3)
     println(twoLettersCount * threeLettersCount)
